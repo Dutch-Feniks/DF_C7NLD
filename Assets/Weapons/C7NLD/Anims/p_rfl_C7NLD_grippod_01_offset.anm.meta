@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{046DCFF7B641C311}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_grippod_01_offset.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

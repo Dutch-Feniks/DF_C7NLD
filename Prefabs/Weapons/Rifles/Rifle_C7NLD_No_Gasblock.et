@@ -1,0 +1,15 @@
+GenericEntity : "{C8CEE6F2365868DE}Prefabs/Weapons/Rifles/Rifle_C7NLD_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65C8E31E1B362CEC}" {
+     AttachmentSlot InventoryStorageSlot gasblock {
+      Offset 0 0.0021 0.145
+      Prefab "{C845839913F97470}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_Mk12_GasBlock.et"
+     }
+    }
+   }
+  }
+ }
+}

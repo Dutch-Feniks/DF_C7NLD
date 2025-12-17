@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{E1385BF973F22985}Assets/Weapons/C7NLD/Data/v2_Metal_BCR.edds"
+ NMOMap "{D9E0E06BAA857B1B}Assets/Weapons/C7NLD/Data/v2_Metal_NMO.edds"
+}

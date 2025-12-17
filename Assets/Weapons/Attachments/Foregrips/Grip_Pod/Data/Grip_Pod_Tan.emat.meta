@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{916208AF98626144}Assets/Weapons/Attachments/Foregrips/Grip_Pod/Data/Grip_Pod_Tan.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,11 @@
+GenericEntity {
+ ID "65D01AE0A2006F3C"
+ components {
+  MeshObject "{65D01AE0D050863D}" {
+   Object "{9176C30BF01AFC0B}Assets/Weapons/C7NLD/C7NLD_barrel.xob"
+  }
+  Hierarchy "{65D01AE0841EC249}" {
+  }
+ }
+ coords 3.867 -1.242 -0.347
+}

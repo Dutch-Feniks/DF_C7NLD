@@ -1,0 +1,27 @@
+MetaFileClass {
+ Name "{9176C30BF01AFC0B}Assets/Weapons/Colt C7NLD/C7NLD_barrel.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{65C35A063F899E7D}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{91BC33076E010D6D}Assets/Weapons/Rifles/m4a1/Data/LP_BARREL.emat"
+    }
+   }
+   MeshParams {
+    MeshParam barrel {
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

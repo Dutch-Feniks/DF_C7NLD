@@ -1,0 +1,84 @@
+GenericEntity : "{C8CEE6F2365868DE}Prefabs/Weapons/Rifles/Rifle_C7NLD_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{F74569F8615CEA61}Assets/Weapons/C7NLD/C8NLD.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222CB07CFF6712A}" {
+     Name "Colt C8NLD"
+     Description "Dutch Army CQB rifle"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{64D864A9206D60D2}" {
+       Name "Effective Range – <b>400m</b>"
+      }
+      SCR_InventoryItemHintUIInfo "{64D864A921FC2C12}" {
+       Name "Barrel Length – <b>14.5-inch</b>"
+      }
+      SCR_InventoryItemHintUIInfo "{65C8E319B0CCAD05}" {
+       Name "Fire Rate – <b>850 rpm</b>"
+      }
+     }
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{65C8E319B0CCAD30}" {
+        "Point info" DeploymentPointInfo dp {
+         Offset 0 0.0569 0.3397
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65C8E319B0CCACC1}" {
+     AttachmentSlot InventoryStorageSlot Right_RIS {
+      PivotID "slot_ris_top"
+      InspectionWidgetOffset 0 0.1207 0.2751
+     }
+    }
+    AttachmentSlotComponent "{65C8E319B0CCACDA}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{65C8E31E1B362CEC}" {
+     AttachmentSlot InventoryStorageSlot gasblock {
+      Offset 0 0.0021 0.0048
+     }
+    }
+    AttachmentSlotComponent "{65C8E31E724E5B4E}" {
+     AttachmentSlot InventoryStorageSlot barrel {
+      Offset 0 -0.0807 -0.1247
+      Prefab "{76B3DF0E04D44214}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_BARREL_14_5.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{65C8E319B0CCACF4}" {
+       AttachmentSlot InventoryStorageSlot "{62BB5A52977A352C}" {
+        InspectionWidgetOffset 0 0.0826 0.4656
+       }
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 850
+      }
+      BaseFireMode "{65C8E319B0CCACE4}" {
+       RoundsPerMinute 850
+      }
+     }
+     DispersionRange 400
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Colt C8NLD"
+    Description "Dutch Army CQB rifle"
+   }
+  }
+ }
+}

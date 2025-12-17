@@ -1,0 +1,57 @@
+MetaFileClass {
+ Name "{F74569F8615CEA61}Assets/Weapons/C7NLD/C8NLD.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{65DEE7AA14BCBD9B}" {
+     SourceMaterial "Metal"
+     AssignedMaterial "{EA841032E959817E}Assets/Weapons/C7NLD/Data/Metal.emat"
+    }
+    MaterialAssignClass "{65DEE7AA14BCBDB0}" {
+     SourceMaterial "Tan"
+     AssignedMaterial "{DB095FBDCE846AA8}Assets/Weapons/C7NLD/Data/Tan.emat"
+    }
+   }
+   MeshParams {
+    MeshParam C7NLD_Charge_Handle {
+    }
+    MeshParam C7NLD_Fire_Mode {
+    }
+    MeshParam C7NLD_Reciever {
+    }
+    MeshParam C7NLD_Trigger {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_C7NLD {
+     LayerPreset "Weapon"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_C7NLD_firegeo {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
+      "{7F153655D1F9ECD8}Common/Materials/Game/WeaponParts/weapon_plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{CE8115982DB64F92}Assets/Weapons/Attachments/Foregrips/Grip_Pod/Data/Grip_Pod_Tan_BC.edds"
+ NMOMap "{68A74CA2821ECDBD}Assets/Weapons/Attachments/Foregrips/Grip_Pod/Data/Grip_Pod_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DA6F4469427F6128}Prefabs/Weapons/Attachments/Foregrips/L85_Grip_Pod/Grip_Pod_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
