@@ -1,0 +1,118 @@
+AnimSetInstanceSource "{68A4EC81AF382CA1}" {
+ Template "{3A7FE9F8C04BE953}Assets/Weapons/Rifles/workspaces/m16_M203.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Reload.Erc.Fire" {
+   Resource "{0B1006ABEE88E947}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_fire.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Fire" {
+   Resource "{0B1006ABEE88E947}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_fire.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.FireLast" {
+   Resource "{749569F32576018F}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_fire_last.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.FireLast" {
+   Resource "{749569F32576018F}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_fire_last.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Idle" {
+   Resource "{48076EDBE10D5C99}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_M203_erc_idle_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Idle" {
+   Resource "{48076EDBE10D5C99}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_M203_erc_idle_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Reload_InsertMag" {
+   Resource "{010EED635E549175}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_insert_mag.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Reload_InsertMag" {
+   Resource "{010EED635E549175}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_insert_mag.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Reload_RemoveMag" {
+   Resource "{FC180E83C14FAE0E}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_erc_M203_remove_mag.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Reload_RemoveMag" {
+   Resource "{FC180E83C14FAE0E}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_erc_M203_remove_mag.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.ReloadActionBolt" {
+   Resource "{2E40A9F2C37E820E}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_rack_bolt.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.ReloadActionBolt" {
+   Resource "{2E40A9F2C37E820E}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_rack_bolt.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.ReloadActionSlideRelease" {
+   Resource "{0E303ECEC20303D2}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_bolt_release.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.ReloadActionSlideRelease" {
+   Resource "{0E303ECEC20303D2}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_bolt_release.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Safety" {
+   Resource "{DD0B3E33BD589B5D}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_safety.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Safety" {
+   Resource "{DD0B3E33BD589B5D}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_safety.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Trigger" {
+   Resource "{0726D2C594D447EB}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_trigger.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Trigger" {
+   Resource "{0726D2C594D447EB}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_trigger.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Sight" {
+   Resource "{C0768D0D58BA4277}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_sight.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Sight" {
+   Resource "{C0768D0D58BA4277}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_sight.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Finger_trigger_in" {
+   Resource "{5F7F02F762B7B769}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_finger_in.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Finger_trigger_in" {
+   Resource "{5F7F02F762B7B769}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_finger_in.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Finger_trigger_out" {
+   Resource "{5B2E6D215B9A9CCA}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_finger_out.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Idle_finger" {
+   Resource "{48076EDBE10D5C99}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_M203_erc_idle_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Idle_finger" {
+   Resource "{48076EDBE10D5C99}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_M203_erc_idle_ras.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_Off" {
+   Resource "{CAED8A6C7BB9F51C}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_switch_mode_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_On" {
+   Resource "{CAED8A6C7BB9F51C}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_switch_mode_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_Off" {
+   Resource "{CAED8A6C7BB9F51C}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_switch_mode_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_On" {
+   Resource "{CAED8A6C7BB9F51C}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_switch_mode_empty.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.BoltPose" {
+   Resource "{01B19B02A655DADD}Assets/Weapons/Rifles/M16A2/anims/anm/w_m16_bolt_pose.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Pne.Finger_trigger_out" {
+   Resource "{5B2E6D215B9A9CCA}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_finger_out.anm"
+  }
+  AnimSetInstanceSource_Line "UGL.Erc.Reload_InsertGrenade" {
+   Resource "{29664EEFF9632901}Assets/Weapons/workspaces/p_rfl_C7NLD_M320_erc_insert_grenade.anm"
+  }
+  AnimSetInstanceSource_Line "UGL.Pne.Reload_InsertGrenade" {
+   Resource "{68946DB9F07AF718}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_pne_insert_grenade.anm"
+  }
+  AnimSetInstanceSource_Line "UGL.Erc.Idle" {
+   Resource "{D3D321B32DC66DA2}Assets/Weapons/workspaces/w_rfl_C7NLD_M320_erc_idle.anm"
+  }
+  AnimSetInstanceSource_Line "UGL.Erc.Reload_RemoveGrenade" {
+   Resource "{D1EC122EC1A7FBB8}Assets/Weapons/workspaces/p_rfl_C7NLD_M320_erc_remove_grenade.anm"
+  }
+  AnimSetInstanceSource_Line "UGL.Pne.Reload_RemoveGrenade" {
+   Resource "{901E3178C8BE25A1}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_pne_remove_grenade.anm"
+  }
+  AnimSetInstanceSource_Line "UGL.Erc.Sight" {
+   Resource "{26F0B1EBF7CFD06F}Assets/Weapons/workspaces/p_rfl_C7NLD_M320_erc_sight.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{59F8A682481C476D}" {
+ }
+}

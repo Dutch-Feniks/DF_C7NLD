@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{29664EEFF9632901}Assets/Weapons/workspaces/p_rfl_C7NLD_M320_erc_insert_grenade.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "780_M203_barrel"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

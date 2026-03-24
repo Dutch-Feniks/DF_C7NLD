@@ -1,0 +1,130 @@
+GameEntity : "{04577020A3B6E107}Prefabs/Weapons/Attachments/Underbarrel/UGL_M320_base.et" {
+ coords 1002.567 39.643 2789.478
+}
+GameEntity : "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et" {
+ components {
+  MuzzleInMagComponent "{B3A264F493CC5A18}" {
+   components {
+    SightsComponent "{BB23A6378CED0346}" {
+     SightsPosition PointInfo "{BB23A6378D8D721A}" {
+     }
+    }
+   }
+  }
+ }
+ coords 1001.691 39.885 2791.652
+ angles 0 103.95 0
+}
+GenericEntity : "{2436F9D69F3AC11F}PrefabsEditable/Auto/Props/Military/Furniture/E_TableMilitary_USSR_02.et" {
+ coords 1002.237 38.609 2790.75
+ angles 0 -105.495 0
+}
+GenericEntity : "{3EC72887AEC40F22}PrefabsEditable/Auto/Props/Furniture/TableOld_01/E_TableOld_01_white.et" {
+ coords 1002.792 38.593 2789.157
+ angles 0 -104.213 0
+}
+$grp Projectile : "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et" {
+ {
+  coords 1002.52 39.489 2789.105
+  angles 89.847 0 0
+ }
+ {
+  coords 1002.468 39.49 2789.101
+  angles 89.847 0 0
+ }
+ {
+  coords 1002.405 39.49 2789.093
+  angles 89.847 0 0
+ }
+ {
+  coords 1002.522 39.489 2789.039
+  angles 89.847 0 0
+ }
+ {
+  coords 1002.464 39.489 2789.04
+  angles 89.847 0 0
+ }
+ {
+  coords 1002.409 39.489 2789.029
+  angles 89.847 0 0
+ }
+ {
+  coords 1002.524 39.489 2788.98
+  angles 89.847 0 0
+ }
+ {
+  coords 1002.464 39.489 2788.979
+  angles 89.847 0 0
+ }
+ {
+  coords 1002.416 39.489 2788.973
+  angles 89.847 0 0
+ }
+}
+GenericEntity : "{5A987A8A13763769}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_M203.et" {
+ coords 1002.139 39.511 2791.287
+ angles 0 128.92 0
+}
+GameEntity : "{6CF51730E80CCF42}Prefabs/Weapons/Attachments/Underbarrel/UGL_M203_base.et" {
+ coords 1002.172 39.591 2791.156
+ angles 0 130.847 0
+}
+GenericEntity : "{8F222208B7708D3A}Prefabs/Weapons/Rifles/Rifle_C7NLD_M320.et" {
+ coords 1002.651 39.625 2789.168
+ angles 0.075 0 0
+}
+GenericEntity : "{BC6C9476FB3219A7}Prefabs/Weapons/Rifles/AK74/Rifle_AK74N_GP25.et" {
+ coords 1002.234 39.876 2791.398
+ angles 0 127.285 0
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 1047.013 37.779 2809.26
+  angles 0 -14.223 0
+ }
+ BTR2 {
+  coords 1100.034 38.107 2814.318
+  angles 0 -14.52 0
+ }
+ BTR3 {
+  coords 1148.721 38 2819.308
+  angles 0 -14.52 0
+ }
+ BTR4 {
+  coords 1198.866 38.012 2823.868
+  angles 0 -14.52 0
+ }
+ BTR5 {
+  coords 1248.562 37.848 2826.869
+  angles 0 -14.52 0
+ }
+ BTR6 {
+  coords 1291.202 37.804 2869.458
+  angles 0 -14.52 0
+ }
+ BTR7 {
+  coords 1343.142 38.001 2866.015
+  angles 0 -14.52 0
+ }
+ BTR8 {
+  coords 1395.046 38.001 2862.088
+  angles 0 -14.52 0
+ }
+}
+GenericEntity : "{C8CEE6F2365868DE}Prefabs/Weapons/Rifles/Rifle_C7NLD_Base.et" {
+ coords 1002.785 39.661 2789.993
+}
+GenericEntity : "{EF73725A81669E2C}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_carbine_M203.et" {
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5DC88B937BA7355D}" {
+     AttachmentSlot InventoryStorageSlot M203 {
+     }
+    }
+   }
+  }
+ }
+ coords 1002.236 39.575 2791.378
+ angles 0 130.847 0
+}
