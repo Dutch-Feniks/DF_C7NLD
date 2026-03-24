@@ -1,5 +1,5 @@
-AnimSetInstanceSource "{5D8A86AC7DF20235}" {
- Template "{D3FC781249E4D1D5}Assets/Weapons/Rifles/workspaces/m16.ast"
+AnimSetInstanceSource "{68F1329099CA2D82}" {
+ Template "{4B0FF2F28B257F1A}Assets/Weapons/workspaces/C7NLD.ast"
  Lines {
   AnimSetInstanceSource_Line "Reload.Erc.Fire" {
    Resource "{8FA419B49E84DC1F}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_fire.anm"
@@ -74,25 +74,25 @@ AnimSetInstanceSource "{5D8A86AC7DF20235}" {
    Resource "{D8C576E8F8E10CC1}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_finger_out.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Idle_finger" {
-   Resource "{B68D26A42DB5E659}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_idle.anm"
+   Resource "{2CFFEA5C4AFA8D56}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_finger_pose.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Idle_finger" {
-   Resource "{B68D26A42DB5E659}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_idle.anm"
+   Resource "{2CFFEA5C4AFA8D56}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_finger_pose.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_Off" {
-   Resource "{BE240C53E4434BAC}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_modes_on.anm"
+   Resource "{7C83E4BF1FBF84F0}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_off.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_Off" {
-   Resource "{BE240C53E4434BAC}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_modes_on.anm"
+   Resource "{7C83E4BF1FBF84F0}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_off.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_On" {
-   Resource "{BE240C53E4434BAC}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_modes_on.anm"
+   Resource "{30556660A961502B}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_on.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_On" {
-   Resource "{BE240C53E4434BAC}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_modes_on.anm"
+   Resource "{30556660A961502B}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_on.anm"
   }
-  AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_Dep_On" {
-   Resource "{BE240C53E4434BAC}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_modes_on.anm"
+  AnimSetInstanceSource_Line "Reload.Erc.IKOffset" {
+   Resource "{003483F47F85F204}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_offset.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.IKOffset" {
    Resource "{003483F47F85F204}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_offset.anm"
@@ -241,19 +241,19 @@ AnimSetInstanceSource "{5D8A86AC7DF20235}" {
   AnimSetInstanceSource_Line "Inspection.CroRas.RightInspectionOut" {
    Resource "{C49D445C5AF4E269}Assets/Weapons/Rifles/M16A2/anims/anm/p_M16A2_weapon_inspection_cro_right_out_ras.anm"
   }
-  AnimSetInstanceSource_Line "Reload.Erc.IKOffset" {
-   Resource "{003483F47F85F204}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_offset.anm"
+  AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_Dep_Off" {
+   Resource "{E75CCA4D4B1FE64E}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_dep_modes_off.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_Dep_Off" {
-   Resource "{BE240C53E4434BAC}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_modes_on.anm"
+   Resource "{E75CCA4D4B1FE64E}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_dep_modes_off.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_Dep_On" {
-   Resource "{BE240C53E4434BAC}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_modes_on.anm"
+   Resource "{385CDF82D1297590}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_dep_modes_on.anm"
   }
-  AnimSetInstanceSource_Line "Reload.Erc.Switch_Mode_Dep_Off" {
-   Resource "{BE240C53E4434BAC}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_modes_on.anm"
+  AnimSetInstanceSource_Line "Reload.Pne.Switch_Mode_Dep_On" {
+   Resource "{385CDF82D1297590}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_dep_modes_on.anm"
   }
  }
- RBF AnimSetInstanceSourceRBFArray "{59BA83C4E50252D6}" {
+ RBF AnimSetInstanceSourceRBFArray "{68F0F3BECBC44497}" {
  }
 }

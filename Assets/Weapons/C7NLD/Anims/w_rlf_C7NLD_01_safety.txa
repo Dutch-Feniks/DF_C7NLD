@@ -1,0 +1,31 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 2
+ $node "w_trigger" {
+  $keys t q {
+   $frame 0 2 {
+    #t -0.0001904 0.0391727 -0.0018338
+    #q 0.21643966 0.00000002 0.00000002 0.97629607
+   }
+  }
+  $node "w_fire_mode" {
+   $keys t q {
+    $frame 0 {
+     #t -0.0153408 0.0576378 -0.0412137
+     #q 0.70710689 0.00000006 0.00000005 0.70710677
+    }
+    $frame 1 {
+     #q -0 0.00000006 0.00000005 1
+    }
+    $frame 2 {
+     #q -0.70710677 0.00000006 0.00000005 0.70710683
+    }
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "701_Rifle_Idle"
+  #custProp "sourceFile" "Character_AnimationRig.blend"
+ }
+}

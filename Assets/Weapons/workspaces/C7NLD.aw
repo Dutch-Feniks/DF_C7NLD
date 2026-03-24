@@ -1,44 +1,37 @@
 BaseSource {
- AnimSetTemplate "{D3FC781249E4D1D5}Assets/Weapons/Rifles/workspaces/m16.ast"
+ AnimSetTemplate "{4B0FF2F28B257F1A}Assets/Weapons/workspaces/C7NLD.ast"
  AnimSetInstances {
-  "{D845F124C0D6E7A1}Assets/Weapons/workspaces/C7NLD_player.asi"
-  "{231B601558D7834D}Assets/Weapons/workspaces/C7NLD_weapon.asi"
+  "{7E8B73D35133BE46}Assets/Weapons/workspaces/C7NLD_weapon.asi"
+  "{85D5E2E2C932DAAA}Assets/Weapons/workspaces/C7NLD_player.asi"
   "{3973A6EEF0F00E6B}Assets/Weapons/workspaces/C7NLD_grippod_player.asi"
  }
  AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
  PreviewModels {
-  AnimSrcWorkspacePreviewModel "{65CA8A9DC5F168BC}" {
-   Model "{790CB9C809DE64B8}Assets/Characters/Animation/AnimTestChar_US_01.xob"
+  AnimSrcWorkspacePreviewModel "{68F0F3BECBD94476}" {
+   Model "{7297BDBDE223627F}Assets/Characters/Animation/AnimTestChar_USSR_01.xob"
   }
-  AnimSrcWorkspacePreviewModel "{65CA8A9C53255413}" {
+  AnimSrcWorkspacePreviewModel "{68F113478C3C938A}" {
    Model "{0B2EE36913A27ABF}Assets/Weapons/C7NLD/C7NLD.xob"
   }
  }
  ChildPreviewModels {
-  AnimSrcWorkspaceChildPreviewModel "{65CA8A9C37E12787}" {
-   Enabled 1
-   Model "{DACC5795857F8288}Assets/Weapons/Magazines/pmag/Magazine_30rnd_PMAG.xob"
-   Bone "slot_magazine"
-   Parent "{65CA8A9C53255413}"
-   ChildBone "snap_weapon"
-  }
-  AnimSrcWorkspaceChildPreviewModel "{65CA8A9DDD9E2E1A}" {
+  AnimSrcWorkspaceChildPreviewModel "{68F11346F38E12E6}" {
    Enabled 1
    Model "{0B2EE36913A27ABF}Assets/Weapons/C7NLD/C7NLD.xob"
    Bone "RightHandProp"
-   Parent "{65CA8A9DC5F168BC}"
+   Parent "{68F0F3BECBD94476}"
   }
-  AnimSrcWorkspaceChildPreviewModel "{65CA8A9DA633766B}" {
+  AnimSrcWorkspaceChildPreviewModel "{68F1134677F54EDC}" {
    Enabled 1
    Model "{DACC5795857F8288}Assets/Weapons/Magazines/pmag/Magazine_30rnd_PMAG.xob"
    Bone "LeftHandProp"
-   Parent "{65CA8A9DC5F168BC}"
+   Parent "{68F0F3BECBD94476}"
   }
  }
- AudioTesting AnimSrcWorkspaceAudioTesting "{59BA83C4E503A055}" {
+ AudioTesting AnimSrcWorkspaceAudioTesting "{68F0F3BECBD9537C}" {
  }
- AttachmentTesting AnimSrcWorkspaceAttachmentTesting "{51EA7A3AB59A3CB1}" {
+ AttachmentTesting AnimSrcWorkspaceAttachmentTesting "{68F0F3BECBD9537F}" {
  }
- IkTesting AnimSrcWorkspaceIkTesting "{53049245A5066937}" {
+ IkTesting AnimSrcWorkspaceIkTesting "{68F0F3BECBD95379}" {
  }
 }

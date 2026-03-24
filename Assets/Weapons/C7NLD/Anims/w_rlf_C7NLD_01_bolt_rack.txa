@@ -1,0 +1,46 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 48
+ $node "w_bolt" {
+  $keys t q {
+   $frame 0 48 {
+   }
+  }
+  $node "w_charging_handle" {
+   $keys t q {
+    $frame 0 17 {
+     #t -0.0001855 0.1258684 -0.0918769
+    }
+    $frame 18 {
+     #t -0.0001919 0.1258726 -0.1131741
+    }
+    $frame 19 {
+     #t -0.0002038 0.1258805 -0.1527262
+    }
+    $frame 20 26 {
+     #t -0.0002102 0.1258847 -0.1740235
+    }
+    $frame 27 {
+     #t -0.0002038 0.1258805 -0.1527262
+    }
+    $frame 28 {
+     #t -0.0001919 0.1258726 -0.1131741
+    }
+    $frame 29 48 {
+    }
+   }
+  }
+ }
+ $events {
+  #event 0 "BlendIn" "AnimSrcEventGeneric {  Name \"BlendIn\"  MainPathOnly 0  Frame 0  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 7 "" "AnimSrcEventGeneric {  Name \"\"  MainPathOnly 0  Frame 7  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 14 "Sound" "AnimSrcEventGeneric {  Name \"Sound\"  MainPathOnly 1  Frame 14  FrameCount 0  UserString \"SOUND_RELOAD_BOLT_PULL\"  UserInt 3 }" 3 0 "" 1
+  #event 24 "Sound" "AnimSrcEventAudio {  Name \"Sound\"  MainPathOnly 1  Frame 24  FrameCount 0  BoneName \"\"  Flags 0 }" -1 0 "" 1
+  #event 38 "Sound" "AnimSrcEventGeneric {  Name \"Sound\"  MainPathOnly 1  Frame 38  FrameCount 0  UserString \"SOUND_RELOAD_MAG_HANDLING\"  UserInt 2 }" 2 0 "" 1
+ }
+ $custProps {
+  #custProp "profile" "727_Weapon_Bolt_rack"
+  #custProp "sourceFile" "Character_AnimationRig.blend"
+ }
+}

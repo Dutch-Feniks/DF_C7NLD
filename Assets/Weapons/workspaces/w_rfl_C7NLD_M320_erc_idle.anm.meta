@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{D3D321B32DC66DA2}Assets/Weapons/workspaces/w_rfl_C7NLD_M320_erc_idle.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "781_M203_Idle - Copy"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

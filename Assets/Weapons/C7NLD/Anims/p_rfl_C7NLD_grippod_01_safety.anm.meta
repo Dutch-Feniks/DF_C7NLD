@@ -2,6 +2,8 @@ MetaFileClass {
  Name "{2C5B952A292094D1}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_grippod_01_safety.anm"
  Configurations {
   TXAResourceClass PC {
+   SourcePath "Character_AnimationRig.blend"
+   SourceProfile "502_IK_RightHand"
   }
   TXAResourceClass XBOX_ONE : PC {
   }

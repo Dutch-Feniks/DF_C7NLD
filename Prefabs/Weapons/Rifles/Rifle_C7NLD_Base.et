@@ -148,42 +148,15 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     }
     AttachmentSlotComponent "{65C8E31BCCCCFE42}" {
      AttachmentSlot InventoryStorageSlot a {
-      PivotID "slot_foregrip"
-      Offset 0 0.0091 0
+      PivotID "slot_handgrip"
+      Offset 0 0.0066 0
       Enabled 1
       Prefab "{DA6F4469427F6128}Prefabs/Weapons/Attachments/Grip_Pod_tan.et"
-      InspectionWidgetOffset 0 0.0359 0.2307
+      InspectionWidgetOffset 0 0.019 0.2698
      }
      AttachmentType WCS_L85_GripPod "{65C8E31BDDF1334B}" {
      }
      ShowInInspection 1
-    }
-    AttachmentSlotComponent "{65C8E31D48DF54D1}" {
-     AttachmentSlot InventoryStorageSlot grip {
-      PivotID "Scene_Root"
-      Offset 0 -0.0007 -0.0189
-      Prefab "{3515BB3BE4AE2414}Prefabs/Weapons/Attachments/Grips/PistolGrip_AR15_A2/RHS_M4A1_Grip.et"
-     }
-    }
-    AttachmentSlotComponent "{65C8E31E1B362CEC}" {
-     AttachmentSlot InventoryStorageSlot gasblock {
-      PivotID "w_root"
-      Offset 0 0.0021 0.1368
-      Prefab "{8B724921BA06FA61}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4A1_GasBlock.et"
-     }
-    }
-    AttachmentSlotComponent "{65C8E31E724E5B4E}" {
-     AttachmentSlot InventoryStorageSlot barrel {
-      PivotID "barrel_chamber"
-      Offset 0 0 -0.135
-      Prefab "{6AA2C9FE4F9CEE50}Prefabs/Weapons/Attachments/C7NLD_barrel.et"
-     }
-    }
-    AttachmentSlotComponent "{65C8E31F030DC769}" {
-     AttachmentSlot InventoryStorageSlot buffertube {
-      Offset 0 -0.0021 -0.0143
-      Prefab "{CDD0D3355AD051DA}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_BufferTube.et"
-     }
     }
     SightsComponent "{BB23A637957CFFF8}" {
      SightsPosition PointInfo "{BB23A63796688E69}" {
@@ -196,7 +169,6 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       AttachmentSlotComponent "{65C8E319B0CCACF4}" {
        AttachmentSlot InventoryStorageSlot "{62BB5A52977A352C}" {
         PivotID "barrel_muzzle"
-        Offset 0 0 -0.0357
         ChildPivotID "snap_barrel_muzzle"
         Prefab "{7491B31344C66233}Prefabs/Weapons/Attachments/Muzzle/556x45/FlashHider_SFWarcomp_556.et"
         InspectionWidgetOffset 0 0.0826 0.5822
@@ -209,7 +181,8 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
        ParticleEffect "{4BF43F7D0D462D39}Particles/Weapon/Casing_556x45.ptc"
        EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
         PivotID "barrel_chamber"
-        Offset 0.015 0.006 -0.055
+        Offset 0.015 0.0052 -0.055
+        Angles 17.3311 90 0
        }
       }
       SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
@@ -305,17 +278,17 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       Offset 0 0.0585 -0.3263
      }
      MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
-      Offset 0 -0.002 0.0013
+      Offset 0 0 -0.0051
       InspectionWidgetOffset 0 -0.0431 0.0743
      }
      MagazineTemplate "{A3BA4C11E2DA07D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1_Last5Tracer.et"
     }
     WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
-     AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
-     AnimInstance "{231B601558D7834D}Assets/Weapons/workspaces/C7NLD_weapon.asi"
+     AnimGraph "{59FD94F2BCE0ABE9}Assets/Weapons/workspaces/C7NLD.agr"
+     AnimInstance "{7E8B73D35133BE46}Assets/Weapons/workspaces/C7NLD_weapon.asi"
      AnimInjection AnimationAttachmentInfo "{65C8E319B0CCAC8A}" {
-      AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
-      AnimInstance "{D845F124C0D6E7A1}Assets/Weapons/workspaces/C7NLD_player.asi"
+      AnimGraph "{59FD94F2BCE0ABE9}Assets/Weapons/workspaces/C7NLD.agr"
+      AnimInstance "{85D5E2E2C932DAAA}Assets/Weapons/workspaces/C7NLD_player.asi"
       BindingName "Weapon"
      }
      BindWithInjection 1

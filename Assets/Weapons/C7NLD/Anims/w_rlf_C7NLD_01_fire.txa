@@ -1,0 +1,16 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 1
+ $node "w_trigger" {
+  $keys q {
+   $frame 0 1 {
+    #q 0.21643966 0.00000002 0.00000002 0.97629607
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "721_Weapon_Trigger"
+  #custProp "sourceFile" "Character_AnimationRig.blend"
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{50ADA46C8ED28C9A}Assets/Weapons/C7NLD/Anims/w_rlf_C7NLD_01_fire.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "Character_AnimationRig.blend"
+   SourceProfile "721_Weapon_Trigger"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

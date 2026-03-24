@@ -2,6 +2,8 @@ MetaFileClass {
  Name "{003483F47F85F204}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_offset.anm"
  Configurations {
   TXAResourceClass PC {
+   SourcePath "Character_AnimationRig.blend"
+   SourceProfile "101_FullBodyABS"
   }
   TXAResourceClass XBOX_ONE : PC {
   }

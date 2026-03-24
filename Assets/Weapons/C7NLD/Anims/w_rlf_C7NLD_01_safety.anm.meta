@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C5531E5A9A6C1842}Assets/Weapons/C7NLD/Anims/w_rlf_C7NLD_01_safety.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "Character_AnimationRig.blend"
+   SourceProfile "701_Rifle_Idle"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

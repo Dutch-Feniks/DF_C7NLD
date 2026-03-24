@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{72BF41F50A5E8F6B}Assets/Weapons/C7NLD/Data/Richtmiddel.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -4,27 +4,61 @@ MetaFileClass {
   FBXResourceClass PC {
    ExportSkinning 1
    MaterialAssigns {
-    MaterialAssignClass "{65C8E3205A560E69}" {
-     SourceMaterial "Metal"
-     AssignedMaterial "{EA841032E959817E}Assets/Weapons/C7NLD/Data/Metal.emat"
+    MaterialAssignClass "{68F0F3B8ED14E39B}" {
+     SourceMaterial "BarrelGasblock"
+     AssignedMaterial "{82C7E446F45C971B}Assets/Weapons/C7NLD/Data/BarrelGasblock.emat"
     }
-    MaterialAssignClass "{65C8E3205A560BF1}" {
-     SourceMaterial "Tan"
-     AssignedMaterial "{DB095FBDCE846AA8}Assets/Weapons/C7NLD/Data/Tan.emat"
+    MaterialAssignClass "{68F0F3B8ED14E3BC}" {
+     SourceMaterial "UpperR"
+     AssignedMaterial "{168B5B34B1691381}Assets/Weapons/C7NLD/Data/UpperR.emat"
+    }
+    MaterialAssignClass "{68F0F3B8ED14E3BB}" {
+     SourceMaterial "Buttstock"
+     AssignedMaterial "{F56B9CB0C6B9503D}Assets/Weapons/C7NLD/Data/Buttstock.emat"
+    }
+    MaterialAssignClass "{68F0F3B8ED14E3AB}" {
+     SourceMaterial "Richtmiddel"
+     AssignedMaterial "{72BF41F50A5E8F6B}Assets/Weapons/C7NLD/Data/Richtmiddel.emat"
+    }
+    MaterialAssignClass "{68F0F3B8ED14E3A6}" {
+     SourceMaterial "Handgrip"
+     AssignedMaterial "{9249F37EA25BE1DF}Assets/Weapons/C7NLD/Data/Handgrip.emat"
+    }
+    MaterialAssignClass "{68F0F3B8ED14E3A1}" {
+     SourceMaterial "LowerR"
+     AssignedMaterial "{395F465B70142920}Assets/Weapons/C7NLD/Data/LowerR.emat"
     }
    }
    MeshParams {
-    MeshParam C7NLD_Charge_Handle {
+    MeshParam BarrelGasblock {
     }
-    MeshParam C7NLD_Fire_Mode {
+    MeshParam Bolt {
     }
-    MeshParam C7NLD_Reciever {
+    MeshParam C7Buttstock {
     }
-    MeshParam C7NLD_Trigger {
+    MeshParam C7Handgrip {
+    }
+    MeshParam C7LowerReceiver {
+    }
+    MeshParam C7upperReceiver {
+    }
+    MeshParam Handgrip {
+    }
+    MeshParam MagRelease {
+    }
+    MeshParam Magstopal {
+    }
+    MeshParam Noodrichtmiddel {
+    }
+    MeshParam RichtmiddelNRM {
+    }
+    MeshParam Safety01 {
+    }
+    MeshParam Trigger {
     }
    }
    GeometryParams {
-    GeometryParam UCX_C7NLD {
+    GeometryParam UCX_C7_body {
      LayerPreset "Weapon"
      SurfaceProperties {
       "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
@@ -32,11 +66,10 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
-    GeometryParam UTM_C7NLD_firegeo {
+    GeometryParam UTM_FG_C7 {
      LayerPreset "FireGeo"
      SurfaceProperties {
       "{3B2D2687F56BB4EF}Common/Materials/Game/WeaponParts/weapon_metal.gamemat"
-      "{7F153655D1F9ECD8}Common/Materials/Game/WeaponParts/weapon_plastic.gamemat"
      }
      Mass 0
      Margin 0

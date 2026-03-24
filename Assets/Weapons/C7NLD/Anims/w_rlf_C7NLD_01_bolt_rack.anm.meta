@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{9D3F5BCE47D3B214}Assets/Weapons/C7NLD/Anims/w_rlf_C7NLD_01_bolt_rack.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "Character_AnimationRig.blend"
+   SourceProfile "727_Weapon_Bolt_rack"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

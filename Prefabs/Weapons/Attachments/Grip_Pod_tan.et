@@ -8,10 +8,11 @@ GenericEntity : "{DE23870B9AC01426}Prefabs/Weapons/Core/RHS_Bipod_base.et" {
      Description "30% sway reduction"
     }
     ItemAnimationAttributes ItemAnimationAttributes "{6495470F5FF4DE7E}" {
+     AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
      AnimationIKPose "{1AF627FAF77683FC}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_grippod_01_ik.anm"
      AnimationAttachments {
       AnimationAttachmentInfo "{62245DADA9DCC7A5}" {
-       AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+       AnimGraph "{59FD94F2BCE0ABE9}Assets/Weapons/workspaces/C7NLD.agr"
        AnimInstance "{3973A6EEF0F00E6B}Assets/Weapons/workspaces/C7NLD_grippod_player.asi"
       }
      }

@@ -1,0 +1,50 @@
+GenericEntity {
+ coords 127.107 1.153 128.613
+}
+GenericEntity : "{189478CDEE2ACD58}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK2.et" {
+ coords 127.07 1.171 127.03
+}
+GenericEntity : "{1A0183B40D962ECF}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103_b10m_b19n_b33.et" {
+ coords 127.221 1.129 126.853
+}
+GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
+ coords 128.375 1.177 128.3
+}
+GenericEntity : "{5A987A8A13763769}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_M203.et" {
+ coords 128.709 1.156 128.368
+}
+GenericEntity : "{84EF1B13DC269C1B}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103_b10m_b19_b33_pt1_rk3_rk2.et" {
+ coords 127.277 1.187 126.795
+}
+$grp GenericEntity : "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et" {
+ {
+  coords 127.371 1.061 127.872
+ }
+ {
+  coords 127.468 1 128.012
+ }
+ {
+  coords 127.495 1 128.194
+ }
+ {
+  coords 127.507 1.076 128.218
+ }
+ {
+  coords 127.284 1 128.201
+ }
+ {
+  coords 127.279 1 128.057
+ }
+ {
+  coords 127.383 1.076 127.859
+ }
+ {
+  coords 127.441 1 127.675
+ }
+}
+GenericEntity : "{C8CEE6F2365868DE}Prefabs/Weapons/Rifles/Rifle_C7NLD_Base.et" {
+ coords 127.268 1.207 128.158
+}
+GenericEntity : "{DA6F4469427F6128}Prefabs/Weapons/Attachments/Grip_Pod_tan.et" {
+ coords 127.106 1.162 128.423
+}
