@@ -163,6 +163,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       Offset 0 0.0079 0.0718
      }
      SightsSwitchSkip 1
+     m_bIsNVGCompatible 1
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
      components {
@@ -170,7 +171,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
        AttachmentSlot InventoryStorageSlot "{62BB5A52977A352C}" {
         PivotID "barrel_muzzle"
         ChildPivotID "snap_barrel_muzzle"
-        Prefab "{7491B31344C66233}Prefabs/Weapons/Attachments/Muzzle/556x45/FlashHider_SFWarcomp_556.et"
+        Prefab "{6288A1F1A5E3AC37}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M16A2/FlashHider_M16.et"
         InspectionWidgetOffset 0 0.0826 0.5822
        }
        AttachmentType AttachmentMuzzle556_45 "{65C8E319B0CCACF6}" {
@@ -341,7 +342,16 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      Radius 0.075
      Height 0
     }
+    UserActionContext "{68F2943544A4219C}" {
+     ContextName "stock"
+     Position PointInfo "{68F2943544A5D1C6}" {
+      PivotID "w_stock"
+      Offset -0.0191 -0.0354 0.2201
+     }
+     Radius 0.075
+    }
    }
   }
  }
+ coords 127.268 1.207 128.158
 }
