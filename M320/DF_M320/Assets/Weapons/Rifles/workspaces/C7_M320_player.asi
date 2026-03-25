@@ -14,10 +14,10 @@ AnimSetInstanceSource "{5D8A86ACD5F88B90}" {
    Resource "{3EC523C2E87EDDCC}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_fire_last.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Idle" {
-   Resource "{291CEE24BF7112B3}Assets/Weapons/workspaces/p_rlf_C7NLD_m230_01_ik.anm"
+   Resource "{7003E89A9E4B3C59}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_safety.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Idle" {
-   Resource "{291CEE24BF7112B3}Assets/Weapons/workspaces/p_rlf_C7NLD_m230_01_ik.anm"
+   Resource "{7003E89A9E4B3C59}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_safety.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Reload_InsertMag" {
    Resource "{9CC6D1E6F3B547C2}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_insert_mag.anm"
@@ -44,10 +44,10 @@ AnimSetInstanceSource "{5D8A86ACD5F88B90}" {
    Resource "{E335B3AB7A60510C}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_pne_remove_mag.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Safety" {
-   Resource "{291CEE24BF7112B3}Assets/Weapons/workspaces/p_rlf_C7NLD_m230_01_ik.anm"
+   Resource "{7003E89A9E4B3C59}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_safety.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.Safety" {
-   Resource "{291CEE24BF7112B3}Assets/Weapons/workspaces/p_rlf_C7NLD_m230_01_ik.anm"
+   Resource "{7003E89A9E4B3C59}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_safety.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.Trigger" {
    Resource "{14F8C7756AB16CB8}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_fire.anm"
@@ -92,10 +92,10 @@ AnimSetInstanceSource "{5D8A86ACD5F88B90}" {
    Resource "{30556660A961502B}Assets/Weapons/Rifles/M16A2/anims/anm/p_rfl_m16_erc_modes_on.anm"
   }
   AnimSetInstanceSource_Line "Reload.Erc.IKOffset" {
-   Resource "{9D245D887D6F9B46}Assets/Weapons/workspaces/p_rlf_C7NLD_m230_01_offset.anm"
+   Resource "{279204938173CC01}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_m16_M203_offset.anm"
   }
   AnimSetInstanceSource_Line "Reload.Pne.IKOffset" {
-   Resource "{9D245D887D6F9B46}Assets/Weapons/workspaces/p_rlf_C7NLD_m230_01_offset.anm"
+   Resource "{279204938173CC01}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_m16_M203_offset.anm"
   }
   AnimSetInstanceSource_Line "UGL.Erc.Reload_InsertGrenade" {
    Resource "{F4FD0CC34B3358A3}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_insert_grenade.anm"
@@ -104,7 +104,7 @@ AnimSetInstanceSource "{5D8A86ACD5F88B90}" {
    Resource "{D5FEB0BE1A6F9C32}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_pne_insert_grenade.anm"
   }
   AnimSetInstanceSource_Line "UGL.Erc.Idle" {
-   Resource "{C39B59CCFEE5E47E}Assets/Weapons/workspaces/p_rlf_C7NLD_m230_01_pose.anm"
+   Resource "{B68D26A42DB5E659}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_idle.anm"
   }
   AnimSetInstanceSource_Line "UGL.Erc.Reload_RemoveGrenade" {
    Resource "{0C77500273F78A1A}Assets/Weapons/Rifles/M16A2/anims/anmM203/p_rfl_m16_M203_erc_remove_grenade.anm"
