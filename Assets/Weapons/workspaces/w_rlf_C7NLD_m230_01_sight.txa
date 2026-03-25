@@ -1,0 +1,19 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 1
+ $node "w_sight_m203" {
+  $keys q {
+   $frame 0 {
+    #q 0.63267928 -0.00024452 -0.00019039 0.77441388
+   }
+   $frame 1 {
+    #q -0 0 0 1
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "728bis_M203_Sight"
+  #custProp "sourceFile" "Character_AnimationRig_C7_m230.blend"
+ }
+}

@@ -1,0 +1,36 @@
+GenericEntity : "{C8CEE6F2365868DE}Prefabs/Weapons/Rifles/Rifle_C7NLD_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{291CEE24BF7112B3}Assets/Weapons/workspaces/p_rlf_C7NLD_m230_01_ik.anm"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{65C8E31BCCCCFE42}" {
+     AttachmentSlot InventoryStorageSlot a {
+      Enabled 0
+     }
+    }
+    AttachmentSlotComponent "{68F13281E8F75A11}" {
+     AttachmentSlot InventoryStorageSlot "{68F132811FB18616}" {
+      Offset 0 0 0
+      Enabled 1
+     }
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{6847E968B6255AC0}Assets/Weapons/Rifles/workspaces/C7_M320.agr"
+     AnimInstance "{650C78C180C7577E}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_weapon.asi"
+     StartNode "RifleMasterControl"
+     AnimInjection AnimationAttachmentInfo "{65C8E319B0CCAC8A}" {
+      AnimGraph "{6847E968B6255AC0}Assets/Weapons/Rifles/workspaces/C7_M320.agr"
+      AnimInstance "{9E52E9F018C63392}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_player.asi"
+     }
+    }
+   }
+  }
+ }
+}

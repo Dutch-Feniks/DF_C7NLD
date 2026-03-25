@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{291CEE24BF7112B3}Assets/Weapons/workspaces/p_rlf_C7NLD_m230_01_ik.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "Character_AnimationRig_C7_m230.blend"
+   SourceProfile "501_IK"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

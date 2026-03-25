@@ -1,6 +1,9 @@
 GenericEntity {
  coords 127.107 1.153 131.474
 }
+GameEntity : "{04577020A3B6E107}Prefabs/Weapons/Attachments/Underbarrel/UGL_M320_base.et" {
+ coords 126.244 1.198 129.635
+}
 GenericEntity : "{189478CDEE2ACD58}Prefabs/Weapons/Attachments/Grips/Grip_Zenit_RK_Vertical/RHS_RK2.et" {
  coords 127.07 1.171 127.03
 }
@@ -9,6 +12,12 @@ GenericEntity : "{1A0183B40D962ECF}Prefabs/Weapons/Rifles/AK74M/Rifle_AK103_b10m
 }
 GenericEntity : "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
  coords 128.375 1.177 128.3
+}
+GameEntity : "{43FDAF3FA0FF2299}Prefabs/Weapons/Attachments/Underbarrel/UGL_M203_long.et" {
+ coords 126.395 1.168 128.614
+}
+GenericEntity : "{4A3E3F00CA04E131}Prefabs/Weapons/Rifles/Rifle_C7NLD_M320.et" {
+ coords 126.4 1.204 129.38
 }
 GenericEntity : "{5A987A8A13763769}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_M203.et" {
  coords 128.709 1.156 128.368

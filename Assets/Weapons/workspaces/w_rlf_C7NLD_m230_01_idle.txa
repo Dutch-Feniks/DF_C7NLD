@@ -1,0 +1,51 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 1
+ $node "w_trigger_cover_m203" {
+  $keys t q {
+   $frame 0 1 {
+    #t -0 0.0273136 0.1605525
+   }
+  }
+  $node "w_barrel_lever_m203" {
+   $keys t q {
+    $frame 0 1 {
+     #t -0 0.0273136 0.1605525
+    }
+   }
+  }
+  $node "w_safety_m203" {
+   $keys t q {
+    $frame 0 1 {
+     #t -0 0.0273136 0.1605525
+    }
+   }
+  }
+  $node "w_barrel_m203" {
+   $keys t q {
+    $frame 0 1 {
+     #t -0.0009033 0.0181926 0.2295708
+    }
+   }
+  }
+  $node "w_sight_m203" {
+   $keys t q {
+    $frame 0 1 {
+     #t -0.0405817 0.0730803 0.0972962
+    }
+   }
+  }
+  $node "w_trigger_m203" {
+   $keys t q {
+    $frame 0 1 {
+     #t -0.0006997 -0.0411093 0.0662114
+    }
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "781_M203_Idle"
+  #custProp "sourceFile" "Character_AnimationRig_C7_m230.blend"
+ }
+}

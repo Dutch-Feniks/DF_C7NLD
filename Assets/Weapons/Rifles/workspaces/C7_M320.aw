@@ -1,10 +1,10 @@
 BaseSource {
  AnimSetTemplate "{3A7FE9F8C04BE953}Assets/Weapons/Rifles/workspaces/m16_M203.ast"
  AnimSetInstances {
-  "{9E52E9F018C63392}Assets/Weapons/Rifles/workspaces/C7_M320_player.asi"
-  "{650C78C180C7577E}Assets/Weapons/Rifles/workspaces/C7_M320_weapon.asi"
+  "{9E52E9F018C63392}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_player.asi"
+  "{650C78C180C7577E}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_weapon.asi"
  }
- AnimGraph "{288D8FF8F78E3DA0}Assets/Weapons/Rifles/workspaces/m16_M203.agr"
+ AnimGraph "{6847E968B6255AC0}Assets/Weapons/Rifles/workspaces/C7_M320.agr"
  PreviewModels {
   AnimSrcWorkspacePreviewModel "{563EF338E13AB792}" {
    Model "{790CB9C809DE64B8}Assets/Characters/Animation/AnimTestChar_US_01.xob"
@@ -12,7 +12,7 @@ BaseSource {
    }
   }
   AnimSrcWorkspacePreviewModel "{68A49D6DE904EACB}" {
-   Model "{E46F61164A01209B}Assets/Weapons/Rifles/m320/m320.xob"
+   Model "{E46F61164A01209B}Assets/Weapons/Attachments/m320/m320.xob"
   }
  }
  ChildPreviewModels {

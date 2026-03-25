@@ -294,6 +294,15 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      }
      BindWithInjection 1
     }
+    AttachmentSlotComponent "{68F13281E8F75A11}" {
+     AttachmentSlot InventoryStorageSlot "{68F132811FB18616}" {
+      PivotID "slot_underbarrel"
+      Offset 0.0006 -0.0284 -0.0132
+      Enabled 0
+      Prefab "{04577020A3B6E107}Prefabs/Weapons/Attachments/Underbarrel/UGL_M320_base.et"
+      InspectionWidgetOffset 0 0.0323 0.2396
+     }
+    }
    }
    SoundInt 1020200
    UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {

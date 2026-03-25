@@ -1,0 +1,104 @@
+AnimSrcGraph {
+ AnimSetTemplate "{3A7FE9F8C04BE953}Assets/Weapons/Rifles/workspaces/m16_M203.ast"
+ ControlTemplate AnimSrcGCT "{55CF13F2CCAA759B}" {
+  Variables {
+   AnimSrcGCTVarBool TriggerPulled {
+    DefaultValue 0
+   }
+   AnimSrcGCTVarInt Stance {
+    DefaultValue 0
+    MinValue 0
+    MaxValue 2
+   }
+   AnimSrcGCTVarBool Firing {
+    DefaultValue 0
+   }
+   AnimSrcGCTVarBool LastBullet {
+    DefaultValue 0
+   }
+   AnimSrcGCTVarBool Empty {
+    DefaultValue 0
+   }
+   AnimSrcGCTVarBool Cocked {
+    DefaultValue 0
+   }
+   AnimSrcGCTVarInt State {
+    DefaultValue 0
+    MinValue -1
+    MaxValue 2
+   }
+   AnimSrcGCTVarFloat AimX {
+    DefaultValue 0
+    MinValue -180
+    MaxValue 180
+   }
+   AnimSrcGCTVarFloat AimY {
+    DefaultValue 0
+    MinValue -90
+    MaxValue 90
+   }
+   AnimSrcGCTVarFloat SightElevation {
+    DefaultValue 0.1
+    MaxValue 1
+   }
+   AnimSrcGCTVarBool Low {
+   }
+   AnimSrcGCTVarBool UGL {
+   }
+   AnimSrcGCTVarInt WeaponInspectionState {
+    MinValue -2
+    MaxValue 2
+   }
+   AnimSrcGCTVarBool WeaponDeployed {
+   }
+   AnimSrcGCTVarFloat ADSAdjust {
+    DefaultValue 1
+    MaxValue 1
+   }
+  }
+  Commands {
+   AnimSrcGCTCmd CMD_Weapon_Action_Interrupt {
+   }
+   AnimSrcGCTCmd CMD_Weapon_Reload {
+   }
+   AnimSrcGCTCmd CMD_Weapon_Sight {
+   }
+  }
+  IkChains {
+   AnimSrcGCTIkChain RightArmProp {
+    Joints {
+     "rightarm"
+     "rightarmtwist"
+     "rightforearm"
+     "rightforearmtwist"
+     "righthand"
+     "righthandprop"
+    }
+    MiddleJoint "rightforearm"
+    ChainAxis "-y"
+   }
+   AnimSrcGCTIkChain LeftArm {
+    Joints {
+     "leftarm"
+     "leftarmtwist"
+     "leftforearm"
+     "leftforearmtwist"
+     "lefthand"
+    }
+    MiddleJoint "leftforearm"
+    ChainAxis "+y"
+   }
+  }
+  GlobalTags {
+   "WEAPON"
+   "RIFLE"
+   "M16M203"
+  }
+ }
+ Debug AnimSrcGD "{55CF13F2CCAA75DF}" {
+ }
+ GraphFilesResourceNames {
+  "{07839142692D5490}Assets/Weapons/Rifles/workspaces/m16_M203.agf"
+ }
+ DefaultRunNode "MasterControl"
+}

@@ -1,0 +1,48 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 99
+ $node "w_barrel_m203" {
+  $keys t q {
+   $frame 0 14 {
+    #t -0.0009033 0.0181926 0.2295708
+   }
+   $frame 15 {
+    #q 0.00001776 0.04597153 0.0000091 0.99894273
+   }
+   $frame 16 {
+    #q 0.00005077 0.13134719 0.00002599 0.99133641
+   }
+   $frame 17 70 {
+    #q 0.00006834 0.17678156 0.00003498 0.98425007
+   }
+   $frame 71 {
+    #q 0.00006334 0.16386376 0.00003242 0.98648304
+   }
+   $frame 72 {
+    #q 0.00005077 0.13134718 0.00002599 0.99133641
+   }
+   $frame 73 {
+    #q 0.0000343 0.08874092 0.00001756 0.99605477
+   }
+   $frame 74 {
+    #q 0.00001776 0.04597151 0.0000091 0.99894273
+   }
+   $frame 75 {
+    #q 0.00000506 0.0131091 0.00000259 0.99991405
+   }
+   $frame 76 99 {
+   }
+  }
+ }
+ $events {
+  #event 11 "Sound" "AnimSrcEventGeneric {  Name \"Sound\"  MainPathOnly 1  Frame 11  FrameCount 0  UserString \"SOUND_RELOAD_UGL_OPEN\"  UserInt 0 }" 0 0 "" 1
+  #event 29 "Sound" "AnimSrcEventGeneric {  Name \"Sound\"  MainPathOnly 1  Frame 29  FrameCount 0  UserString \"SOUND_RELOAD_UGL_REMOVE\"  UserInt 0 }" 0 0 "" 1
+  #event 62 "BlendOut" "AnimSrcEventGeneric {  Name \"BlendOut\"  MainPathOnly 0  Frame 62  FrameCount 0  UserString \"\"  UserInt -1 }" -1 0 "" 0
+  #event 67 "Sound" "AnimSrcEventGeneric {  Name \"Sound\"  MainPathOnly 1  Frame 67  FrameCount 0  UserString \"SOUND_RELOAD_UGL_CLOSE\"  UserInt 0 }" 0 0 "" 1
+ }
+ $custProps {
+  #custProp "profile" "780_M203_barrel"
+  #custProp "sourceFile" "Character_AnimationRig_C7_m230.blend"
+ }
+}

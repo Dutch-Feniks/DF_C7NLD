@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{66DEDCFA254B07BD}Assets/Weapons/workspaces/w_rlf_C7NLD_m230_01_remove_grenade.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "Character_AnimationRig_C7_m230.blend"
+   SourceProfile "780_M203_barrel"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}
