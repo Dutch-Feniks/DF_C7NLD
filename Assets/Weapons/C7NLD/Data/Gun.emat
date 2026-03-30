@@ -1,2 +1,4 @@
 MatPBRBasic {
+ BCRMap "{1B0CA5258857E934}Assets/Weapons/C7NLD/Data/Gun_BCR.edds"
+ NMOMap "{23D41EB75120BBAA}Assets/Weapons/C7NLD/Data/Gun_NMO.edds"
 }

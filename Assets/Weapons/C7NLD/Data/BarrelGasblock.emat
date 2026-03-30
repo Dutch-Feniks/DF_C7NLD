@@ -1,2 +1,4 @@
 MatPBRBasic {
+ BCRMap "{40064ADE1ED60704}Assets/Weapons/C7NLD/Data/BarrelGasblock_BCR.edds"
+ NMOMap "{78DEF14CC7A1559A}Assets/Weapons/C7NLD/Data/BarrelGasblock_NMO.edds"
 }

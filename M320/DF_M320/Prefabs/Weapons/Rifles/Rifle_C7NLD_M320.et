@@ -161,6 +161,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     AttachmentSlotComponent "{686D0648F51E4724}" {
      AttachmentSlot InventoryStorageSlot buffertube {
       Offset 0 -0.0021 -0.0143
+      Enabled 0
       Prefab "{CDD0D3355AD051DA}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_BufferTube.et"
      }
     }
@@ -168,6 +169,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AttachmentSlot InventoryStorageSlot grip {
       PivotID "Scene_Root"
       Offset 0 -0.0007 -0.0189
+      Enabled 0
       Prefab "{3515BB3BE4AE2414}Prefabs/Weapons/Attachments/Grips/PistolGrip_AR15_A2/RHS_M4A1_Grip.et"
      }
     }
@@ -175,6 +177,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AttachmentSlot InventoryStorageSlot gasblock {
       PivotID "w_root"
       Offset 0 0.0021 0.1368
+      Enabled 0
       Prefab "{8B724921BA06FA61}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4A1_GasBlock.et"
      }
     }
@@ -182,6 +185,7 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
      AttachmentSlot InventoryStorageSlot barrel {
       PivotID "barrel_chamber"
       Offset 0 0 -0.135
+      Enabled 0
       Prefab "{6AA2C9FE4F9CEE50}Prefabs/Weapons/Attachments/C7NLD_barrel.et"
      }
     }
@@ -196,9 +200,8 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
       AttachmentSlotComponent "{686D0648F51E4721}" {
        AttachmentSlot InventoryStorageSlot "{62BB5A52977A352C}" {
         PivotID "barrel_muzzle"
-        Offset 0 0 -0.0357
         ChildPivotID "snap_barrel_muzzle"
-        Prefab "{7491B31344C66233}Prefabs/Weapons/Attachments/Muzzle/556x45/FlashHider_SFWarcomp_556.et"
+        Prefab "{6288A1F1A5E3AC37}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M16A2/FlashHider_M16.et"
         InspectionWidgetOffset 0 0.0826 0.5822
        }
        AttachmentType AttachmentMuzzle556_45 "{686D0648F51E472F}" {
@@ -312,10 +315,10 @@ GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
     }
     WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
      AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
-     AnimInstance "{231B601558D7834D}Assets/Weapons/workspaces/C7NLD_weapon.asi"
+     AnimInstance "{7E8B73D35133BE46}Assets/Weapons/workspaces/C7NLD_weapon.asi"
      AnimInjection AnimationAttachmentInfo "{686D0648F51E4704}" {
       AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
-      AnimInstance "{D845F124C0D6E7A1}Assets/Weapons/workspaces/C7NLD_player.asi"
+      AnimInstance "{85D5E2E2C932DAAA}Assets/Weapons/workspaces/C7NLD_player.asi"
       BindingName "Weapon"
      }
      BindWithInjection 1
