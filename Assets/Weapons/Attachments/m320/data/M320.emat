@@ -1,5 +1,5 @@
-MatPBRBasic "{09F27F0BA860D926}Assets/Weapons/Rifles/m320/data/M320.emat" {
+MatPBRBasic {
  Emissive 0 0 0 1
- BCRMap "{1E7281D239581961}Assets/Weapons/Rifles/m320/data/M320_BCR.edds"
- NMOMap "{26AA3A40E02F4BFF}Assets/Weapons/Rifles/m320/data/M320_NMO.edds"
+ BCRMap "{1E7281D239581961}Assets/Weapons/Attachments/m320/data/M320_BCR.edds"
+ NMOMap "{26AA3A40E02F4BFF}Assets/Weapons/Attachments/m320/data/M320_NMO.edds"
 }

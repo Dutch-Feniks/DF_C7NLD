@@ -95,22 +95,22 @@ AnimSetInstanceSource "{68A4EC81AF382CA1}" {
    Resource "{5B2E6D215B9A9CCA}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_finger_out.anm"
   }
   AnimSetInstanceSource_Line "UGL.Erc.Reload_InsertGrenade" {
-   Resource "{4997D1C4A1263389}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_erc_insert_grenade.anm"
+   Resource "{9E54803B1D8FD504}Assets/Weapons/workspaces/w_rlf_C7NLD_m230_01_insert_grenade.anm"
   }
   AnimSetInstanceSource_Line "UGL.Pne.Reload_InsertGrenade" {
-   Resource "{68946DB9F07AF718}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_pne_insert_grenade.anm"
+   Resource "{9E54803B1D8FD504}Assets/Weapons/workspaces/w_rlf_C7NLD_m230_01_insert_grenade.anm"
   }
   AnimSetInstanceSource_Line "UGL.Erc.Idle" {
-   Resource "{D3D321B32DC66DA2}Assets/Weapons/workspaces/w_rfl_C7NLD_M320_erc_idle.anm"
+   Resource "{617C340C4CEA5B6B}Assets/Weapons/workspaces/w_rlf_C7NLD_m230_01_idle.anm"
   }
   AnimSetInstanceSource_Line "UGL.Erc.Reload_RemoveGrenade" {
-   Resource "{901E3178C8BE25A1}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_pne_remove_grenade.anm"
+   Resource "{66DEDCFA254B07BD}Assets/Weapons/workspaces/w_rlf_C7NLD_m230_01_remove_grenade.anm"
   }
   AnimSetInstanceSource_Line "UGL.Pne.Reload_RemoveGrenade" {
-   Resource "{901E3178C8BE25A1}Assets/Weapons/Rifles/M16A2/anims/anmM203/w_rfl_m16_M203_pne_remove_grenade.anm"
+   Resource "{66DEDCFA254B07BD}Assets/Weapons/workspaces/w_rlf_C7NLD_m230_01_remove_grenade.anm"
   }
   AnimSetInstanceSource_Line "UGL.Erc.Sight" {
-   Resource "{26F0B1EBF7CFD06F}Assets/Weapons/workspaces/p_rfl_C7NLD_M320_erc_sight.anm"
+   Resource "{FB4A57A5B046F654}Assets/Weapons/workspaces/w_rlf_C7NLD_m230_01_sight.anm"
   }
  }
  RBF AnimSetInstanceSourceRBFArray "{59F8A682481C476D}" {

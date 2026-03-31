@@ -23,11 +23,11 @@ GenericEntity : "{C8CEE6F2365868DE}Prefabs/Weapons/Rifles/Rifle_C7NLD_Base.et" {
     }
     WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
      AnimGraph "{6847E968B6255AC0}Assets/Weapons/Rifles/workspaces/C7_M320.agr"
-     AnimInstance "{650C78C180C7577E}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_weapon.asi"
+     AnimInstance "{650C78C180C7577E}Assets/Weapons/Rifles/workspaces/C7_M320_weapon.asi"
      StartNode "RifleMasterControl"
      AnimInjection AnimationAttachmentInfo "{65C8E319B0CCAC8A}" {
       AnimGraph "{6847E968B6255AC0}Assets/Weapons/Rifles/workspaces/C7_M320.agr"
-      AnimInstance "{9E52E9F018C63392}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_player.asi"
+      AnimInstance "{9E52E9F018C63392}Assets/Weapons/Rifles/workspaces/C7_M320_player.asi"
      }
     }
    }

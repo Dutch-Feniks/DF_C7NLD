@@ -47,49 +47,49 @@ GameEntity : "{8A820ADCE8D05357}Prefabs/Weapons/Core/UGL_Base.et" {
     }
     SightsComponent "{BB23A6378CED0346}" {
      SightsPosition PointInfo "{BB23A6378D8D721A}" {
-      PivotID "eye"
+      PivotID "eye_m203"
      }
      SightsRanges {
-      SightRangeInfo "{68A49D7D3C5C18D4}" {
+      SightRangeInfo "{68F4DB7760297E4B}" {
        Range 0 50
-       WeaponPosition PointInfo "{68A49D7D3C5C18BE}" {
-        Offset 0 0.00315 0
+       WeaponPosition PointInfo "{68F4DB7760297E62}" {
+        Offset 0 0.00001 0
         Angles 2.46094 0 0
        }
       }
-      SightRangeInfo "{68A49D7D3C538C29}" {
+      SightRangeInfo "{68F4DB7760292C75}" {
        Range 0 100
-       WeaponPosition PointInfo "{68A49D7D3C538CFD}" {
-        Offset 0 -0.02256 0
+       WeaponPosition PointInfo "{68F4DB7760292C61}" {
+        Offset 0 -0.0169 0
         Angles 4.94166 0 0
        }
       }
-      SightRangeInfo "{68A49D7D3C56B899}" {
+      SightRangeInfo "{68F4DB776029053B}" {
        Range 0 150
-       WeaponPosition PointInfo "{68A49D7D3C56BB71}" {
-        Offset 0 -0.059 0
+       WeaponPosition PointInfo "{68F4DB776029052B}" {
+        Offset 0 -0.04085 0
         Angles 8.46548 0 0
        }
       }
-      SightRangeInfo "{68A49D7D3C6C25CD}" {
+      SightRangeInfo "{68F4DB77602EE7F4}" {
        Range 0 200
-       WeaponPosition PointInfo "{68A49D7D3C6C25A3}" {
-        Offset 0 -0.09504 0
+       WeaponPosition PointInfo "{68F4DB77602EE7FD}" {
+        Offset 0 -0.06454 0
         Angles 11.97291 0 0
        }
       }
-      SightRangeInfo "{68A49D7D3C63DA74}" {
+      SightRangeInfo "{68F4DB77602EF6A9}" {
        Range 0 250
-       WeaponPosition PointInfo "{68A49D7D3C63DA49}" {
-        Offset 0 -0.1443 0
-        Angles 15.2615 0 0
+       WeaponPosition PointInfo "{68F4DB77602EF6D0}" {
+        Offset 0 -0.08791 0
+        Angles 15.46875 0 0
        }
       }
-      SightRangeInfo "{68A49D7D3C669BC9}" {
+      SightRangeInfo "{68F4DB77602EC694}" {
        Range 0 300
-       WeaponPosition PointInfo "{68A49D7D3C669B9B}" {
-        Offset 0 -0.233 0
-        Angles 19.5868 0 0
+       WeaponPosition PointInfo "{68F4DB77602EC69F}" {
+        Offset 0 -0.12024 0
+        Angles 20.39062 0 0
        }
       }
      }
@@ -99,7 +99,8 @@ GameEntity : "{8A820ADCE8D05357}Prefabs/Weapons/Core/UGL_Base.et" {
      ZeroingGenerator RearSightZeroingGenerator "{68A49D732E2F7259}" {
       ZeroRaiseToEye 1
       PivotPosition PointInfo "{68A495B1FAA5C694}" {
-       PivotID "w_root"
+       PivotID "Rear_sight"
+       Offset 0 -0.0379 -0.1315
       }
       ZeroingMarks {
        ZeroingMarkInfo "{68A495B1A8EE29FD}" {
@@ -165,13 +166,13 @@ GameEntity : "{8A820ADCE8D05357}Prefabs/Weapons/Core/UGL_Base.et" {
    }
    MuzzleEndPositions {
     PointInfo "{B3A264F495616EA1}" {
-     PivotID ""
+     PivotID "snap_weapon"
      Offset 0 -0.0305 0.0886
     }
    }
    ProjectileSpawnPositions {
     PointInfo "{517A836A2DD34B6B}" {
-     PivotID "w_barrel"
+     PivotID "snap_weapon"
      Offset 0 -0.0305 -0.1163
      Angles 0 0 0
     }
@@ -217,7 +218,7 @@ GameEntity : "{8A820ADCE8D05357}Prefabs/Weapons/Core/UGL_Base.et" {
     Offset 0 0.041 -0.3423
    }
    ProjectilePosition InventoryStorageSlot "{517A8378FD27B41A}" {
-    PivotID ""
+    PivotID "snap_weapon"
     Offset 0 -0.0305 -0.1163
    }
    AmmoTemplate "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
@@ -266,7 +267,7 @@ GameEntity : "{8A820ADCE8D05357}Prefabs/Weapons/Core/UGL_Base.et" {
      AnimationAttachments {
       AnimationAttachmentInfo "{686D064892260114}" {
        AnimGraph "{6847E968B6255AC0}Assets/Weapons/Rifles/workspaces/C7_M320.agr"
-       AnimInstance "{9E52E9F018C63392}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_player.asi"
+       AnimInstance "{9E52E9F018C63392}Assets/Weapons/Rifles/workspaces/C7_M320_player.asi"
        BindingName "Weapon"
       }
      }
@@ -382,7 +383,7 @@ GameEntity : "{8A820ADCE8D05357}Prefabs/Weapons/Core/UGL_Base.et" {
   }
   UGLAnimationComponent "{686D06489226013A}" {
    AnimGraph "{6847E968B6255AC0}Assets/Weapons/Rifles/workspaces/C7_M320.agr"
-   AnimInstance "{650C78C180C7577E}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_weapon.asi"
+   AnimInstance "{650C78C180C7577E}Assets/Weapons/Rifles/workspaces/C7_M320_weapon.asi"
    StartNode "UGLMasterControl"
    AutoVariablesBind 1
    AnimVariablesToBind {

@@ -1,8 +1,8 @@
 BaseSource {
  AnimSetTemplate "{3A7FE9F8C04BE953}Assets/Weapons/Rifles/workspaces/m16_M203.ast"
  AnimSetInstances {
-  "{9E52E9F018C63392}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_player.asi"
-  "{650C78C180C7577E}M320/DF_M320/Assets/Weapons/Rifles/workspaces/C7_M320_weapon.asi"
+  "{9E52E9F018C63392}Assets/Weapons/Rifles/workspaces/C7_M320_player.asi"
+  "{650C78C180C7577E}Assets/Weapons/Rifles/workspaces/C7_M320_weapon.asi"
  }
  AnimGraph "{6847E968B6255AC0}Assets/Weapons/Rifles/workspaces/C7_M320.agr"
  PreviewModels {

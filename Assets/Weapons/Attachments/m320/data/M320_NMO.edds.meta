@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{26AA3A40E02F4BFF}Assets/Weapons/Rifles/m320/data/M320_NMO.edds"
+ Name "{26AA3A40E02F4BFF}Assets/Weapons/Attachments/m320/data/M320_NMO.edds"
  Configurations {
   PNGResourceClass PC : "{A968DA7F9A1E3A3E}Configs/System/ResourceTypes/PC/TextureNType.conf" {
   }
