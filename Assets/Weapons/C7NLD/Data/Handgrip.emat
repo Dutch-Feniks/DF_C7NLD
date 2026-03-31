@@ -1,2 +1,4 @@
 MatPBRBasic {
+ BCRMap "{02D8B905B8360E3B}Assets/Weapons/C7NLD/Data/Handgrip_BCR.edds"
+ NMOMap "{3A00029761415CA5}Assets/Weapons/C7NLD/Data/Handgrip_NMO.edds"
 }

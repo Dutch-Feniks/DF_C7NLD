@@ -1,0 +1,379 @@
+GenericEntity : "{911D6C8DC7BA2D63}Prefabs/Weapons/Core/Rifle_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{DB92C647E05B2512}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Shot.acp" "{A6F3D0955462D8FE}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp" "{03F532C8D2333B09}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Shot_Suppressed_SuperSonic.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{0B2EE36913A27ABF}Assets/Weapons/C7NLD/C7NLD.xob"
+  }
+  RHS_WeaponRplComponent "{686D0648F51FCAC7}" {
+  }
+  RigidBody "{686D0648F51FCACA}" {
+   SimState None
+   ResponseIndex "Normal"
+   ModelGeometry 1
+  }
+  ProcAnimComponent "{686D0648F51FCAB7}" {
+   Parameters {
+    ProcAnimParams "{686D0648F51FCAB5}" {
+     ResourceName "{D829D69CF4000344}Assets/Weapons/Rifles/m27iar/anims/M27_flipsight_actions.pap"
+    }
+   }
+  }
+  SCR_MeleeWeaponProperties "{686D0648F51FCAB4}" {
+   m_fDamage 45
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222CB07CFF6712A}" {
+     Name "Colt C7NLD"
+     Description "Dutch Army standard issue"
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{686D0648F51FCABC}" {
+       Name "Caliber – <b>5.56x45mm NATO</b>"
+      }
+      SCR_InventoryItemHintUIInfo "{686D0648F51FCABA}" {
+       Name "Fire Mode – <b>Semi-Automatic, Full-Automatic</b>"
+      }
+      SCR_InventoryItemHintUIInfo "{686D0648F51FCAA6}" {
+       Name "Effective Range – <b>500m</b>"
+      }
+      SCR_InventoryItemHintUIInfo "{686D0648F51E3001}" {
+       Name "Barrel Length – <b>20-inch</b>"
+      }
+      SCR_InventoryItemHintUIInfo "{686D0648F51E3003}" {
+       Name "Fire Rate – <b>800 rpm</b>"
+       Icon "{B9199157B90D6216}UI/Textures/InventoryIcons/Medical/Medical-icons.imageset"
+       IconSetName "Medical-Arrows_UI"
+       m_cColor 1 1 1 1
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{686D0648F51E3007}" {
+     Weight 3.12
+     SizeSetupStrategy Manual
+     ItemDimensions 25 25 25
+     ItemVolume 1500
+     DimensionScaler 1
+     RestingUP Left
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     IkSettings {
+      ItemIKSettings "{5284960E1C7C18A7}" {
+      }
+      ItemIKSettings "{5D48CC48D8A46AE0}" {
+      }
+      ItemIKSettings "{5284960E1C9F0E31}" {
+      }
+      ItemIKSettings "{5284960E131A980A}" {
+      }
+     }
+     AnimationInstance "{0350283642830782}anims/workspaces/player/player_main_rifle.asi"
+     AnimationIKPose "{F2B88C3384DB703A}Assets/Weapons/C7NLD/Anims/p_rfl_C7NLD_01_ik.anm"
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      DeploymentPoints {
+       PivotPointInfoItem "{686D0648F51E300D}" {
+        "Point info" DeploymentPointInfo dp {
+         PivotID "Scene_Root"
+         Offset 0 0.0586 0.4529
+        }
+        StabilizationPoints {
+         DeploymentPointInfo bipod_pos {
+          PivotID "bipod_pos"
+          Offset 0 0 0
+         }
+        }
+        StabilizationSize 0.05 0.12 0.37
+       }
+      }
+     }
+     ItemOneHandAnimAttributes "{686D0648F51E3032}" {
+      ErectLinearOffsetUpper 0 0 0
+      ErectLinearOffset 0.018 -0.2 -0.1
+      ErectLinearOffsetLower 0.018 -0.05 0
+      CrouchLinearOffsetUpper 0 0 0
+      CrouchLinearOffset 0.018 -0.16 -0.1
+      CrouchLinearOffsetLower 0 -0.15 0
+      InterpolationSpeed 5
+      StanceInterpolationSpeed 5
+      SpringCoefficient 2.2
+      DamperCoefficient 2.4
+      ObstructionMultiplier 1
+     }
+    }
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{686D0648F51E303E}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{686D0648F51E02E1}" {
+     AttachmentSlot InventoryStorageSlot a {
+      PivotID "slot_underbarrel"
+      Offset 0.0006 -0.0284 -0.0132
+      Enabled 1
+      Prefab "{04577020A3B6E107}Prefabs/Weapons/Attachments/Underbarrel/UGL_M320_base.et"
+      InspectionWidgetOffset 0 0.0359 0.2307
+     }
+     AttachmentType AttachmentUnderBarrelM203 "{687332A04379FBEC}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{686D0648F51E3021}" {
+     AttachmentSlot InventoryStorageSlot Right_RIS {
+      PivotID "slot_ris_left"
+      InspectionWidgetOffset -0.0428 0.081 0.4159
+     }
+     AttachmentType AttachmentRIS1913Short "{686D0648F51E3024}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{686D0648F51E3025}" {
+     AttachmentSlot InventoryStorageSlot Top_RIS {
+      PivotID "slot_ris_right"
+      InspectionWidgetOffset 0.0401 0.0822 0.4141
+     }
+     AttachmentType AttachmentRIS1913Short "{686D0648F51E3026}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{686D0648F51E3027}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{62BB5DE159A0D567}" {
+      PivotID "slot_optics"
+      Offset 0 0 -0.0293
+      ChildPivotID "snap_weapon"
+      Prefab "{4268B2077766E8C7}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_high.et"
+      InspectionWidgetOffset 0 0.1222 0.0591
+      m_fMaximumPositiveSlideOffset 0.06
+      m_fMaximumNegativeSlideOffset -0.06
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{686D0648F51E3029}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{686D0648F51E4724}" {
+     AttachmentSlot InventoryStorageSlot buffertube {
+      Offset 0 -0.0021 -0.0143
+      Enabled 0
+      Prefab "{CDD0D3355AD051DA}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_BufferTube.et"
+     }
+    }
+    AttachmentSlotComponent "{686D0648F51E6079}" {
+     AttachmentSlot InventoryStorageSlot grip {
+      PivotID "Scene_Root"
+      Offset 0 -0.0007 -0.0189
+      Enabled 0
+      Prefab "{3515BB3BE4AE2414}Prefabs/Weapons/Attachments/Grips/PistolGrip_AR15_A2/RHS_M4A1_Grip.et"
+     }
+    }
+    AttachmentSlotComponent "{686D0648F51E607E}" {
+     AttachmentSlot InventoryStorageSlot gasblock {
+      PivotID "w_root"
+      Offset 0 0.0021 0.1368
+      Enabled 0
+      Prefab "{8B724921BA06FA61}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4A1_GasBlock.et"
+     }
+    }
+    AttachmentSlotComponent "{686D0648F51E6081}" {
+     AttachmentSlot InventoryStorageSlot barrel {
+      PivotID "barrel_chamber"
+      Offset 0 0 -0.135
+      Enabled 0
+      Prefab "{6AA2C9FE4F9CEE50}Prefabs/Weapons/Attachments/C7NLD_barrel.et"
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      Offset 0 0.0079 0.0718
+     }
+     SightsSwitchSkip 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{686D0648F51E4721}" {
+       AttachmentSlot InventoryStorageSlot "{62BB5A52977A352C}" {
+        PivotID "barrel_muzzle"
+        ChildPivotID "snap_barrel_muzzle"
+        Prefab "{6288A1F1A5E3AC37}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M16A2/FlashHider_M16.et"
+        InspectionWidgetOffset 0 0.0826 0.5822
+       }
+       AttachmentType AttachmentMuzzle556_45 "{686D0648F51E472F}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{4BF43F7D0D462D39}Particles/Weapon/Casing_556x45.ptc"
+       EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
+        PivotID "barrel_chamber"
+        Offset 0.015 0.006 -0.055
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{DDF8E6F5BCEABCCC}Particles/Weapon/Muzzle_M16A2_Open.ptc"
+       ResetOnFire 0
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       Offset 0 0 -0.0219
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 800
+      }
+      BaseFireMode "{686D0648F51E472A}" {
+       MaxBurst -1
+       RoundsPerMinute 800
+      }
+     }
+     MagazineWell MagazineWellStanag556 "{686D0648F51E4737}" {
+     }
+     BulletInitSpeedCoef 0.93
+     DispersionDiameter 0.4
+     DispersionRange 500
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{521AE9A27BDC1E6F}" {
+       "Lower Rotation" -10 -8 -10
+      }
+      RecoilWeaponAimModifier "{686D0648F51E4732}" {
+       LinearData RecoilData "{686D0648F51E4730}" {
+        "Curve X" {
+         0 0.5 0.034 0.553 0.051 0.905 0.203 0.641 0.301 0.518 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.071 0.65 0.095 0.5 0.261 0.5 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.008 0.809 0.026 0.997 0.032 0.944 0.046 0.948 0.081 0.62 0.177 0.512 0.436 0.5 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.001 -0.022
+        "Curve Maxs" 0 -0.001 -0.018
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+       AngularData RecoilData "{686D0648F51E473F}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.038 0.796 0.093 1 0.222 0.765 0.349 0.571 0.529 0.508 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.033 0.641 0.049 0.892 0.095 0.7 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
+        }
+        "Curve Time Scale" 1.25
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -1 1.5 1
+        "Curve Maxs" 1 1.8 1
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+       TurnOffsetData RecoilData "{686D0648F51E473E}" {
+        "Curve X" {
+         0 0.5 0.06 1 0.093 0.752 0.116 0.539 0.148 0.502 1 0.5
+        }
+        "Curve Y" {
+         0.031 0.998 0.105 0.576 0.236 0.5 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 0
+        "Curve Mins" -1.5 4.5 0
+        "Curve Maxs" 1.5 6 0
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+      }
+      ZeroingWeaponAimModifier "{686D0648F51E473B}" {
+      }
+     }
+     "LEFT HAND TARGET" DeploymentPointInfo "{62BB7A2F987B825C}" {
+      PivotID "slot_magazine"
+      Offset 0 0 0
+      Angles 0 0 0
+     }
+     RIGHT_HAND_TARGET DeploymentPointInfo "{62BB7A2F9AD8B251}" {
+      PivotID "snap_hand_right"
+     }
+     BUTSTOCK_TRANSFORMATION DeploymentPointInfo "{62BB7A2FA5FD5757}" {
+      Offset 0 0.0585 -0.3263
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0 -0.002 0.0013
+      InspectionWidgetOffset 0 -0.0431 0.0743
+     }
+     MagazineTemplate "{A3BA4C11E2DA07D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_SP_T_30rnd_M855A1_Last5Tracer.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+     AnimInstance "{7E8B73D35133BE46}Assets/Weapons/workspaces/C7NLD_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{686D0648F51E4704}" {
+      AnimGraph "{C10E1E127E210526}Assets/Weapons/Rifles/workspaces/m16.agr"
+      AnimInstance "{85D5E2E2C932DAAA}Assets/Weapons/workspaces/C7NLD_player.asi"
+      BindingName "Weapon"
+     }
+     BindWithInjection 1
+    }
+   }
+   SoundInt 1020200
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Colt C7NLD"
+    Description "Dutch army standard issue"
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      PivotID "slot_foregrip"
+      Offset 0 0 0
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{686D0648F51E470F}" {
+      PivotID "slot_magazine"
+      Offset 0 -0.0398 -0.0262
+     }
+     Height 0
+    }
+    UserActionContext "{5A1E58F7AED270D4}" {
+     Position PointInfo "{686D0648F51E470E}" {
+      PivotID "w_fire_mode"
+      Angles 0 -90 0
+     }
+     Radius 0.05
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{618A84270A2BFDC0}" {
+     UIInfo SCR_ActionContextUIInfo "{618A842787792024}" {
+     }
+     Position PointInfo "{618A842792A66B70}" {
+      PivotID "barrel_muzzle"
+      Offset 0 0.0009 0.0047
+     }
+    }
+    UserActionContext "{686D0648F51E470B}" {
+     ContextName "optic"
+     Position PointInfo "{686D0648F51E470A}" {
+      PivotID "slot_optics"
+      Offset 0 0.0245 -0.0286
+     }
+     Radius 0.075
+     Height 0
+    }
+   }
+  }
+ }
+ coords 1002.651 39.625 2789.168
+ angles 0.075 0 0
+}
